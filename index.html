@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Tampinha</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- cdn font-awesome -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="info">
+        <h1>Acerte o Número Secreto</h1>
+        <h3> O número secreto esta entre número secreto:
+            <span data-id="menor-valor"></span> -
+            <span data-id="maior-valor"></span>
+        </h3>
+    </section>
+     <section data-id="chute" class="mensagem">
+        <!-- <div class ="resposta">Voce disse: <span  data-id= "box" class="box">20</span> 
+        </div> 
+        <div class ="dica">O numero secreto é maior: 
+            <i  class="fa-solid fa-arrow-up-long"></i>
+        </div> -->
+    </section> 
+    
+    <section></section>
+
+    <button type="button" id="botao">joagar</button>
+
+    <p class="messages__texto">Fale um numero ao jogar</p>
+
+     <section data-id="acertar">
+        <div data-id="menssagem">
+        </div>
+     </section>
+
+
+    <script src = "./js/gerarNumero.js" type="text/javascript"> </script>
+    <script src = "./js/reconhecimento-voz.js" type="text/javascript"> </script>
+    <script src = "./js/validacao.js" type="text/javascript"> </script>
+    <script src = "./js/dicas.js" type="text/javascript"> </script>
+    <script src = "./js/main.js" type="text/javascript"> </script>
+</body>
+</html>
