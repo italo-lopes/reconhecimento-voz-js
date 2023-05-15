@@ -10,10 +10,10 @@
     --font-conteudo: 'Ubuntu', sans-serif;
 }
 body{
-    /* background-image:  url('../img/cerveja2.avif');
+    background-image:  url('../img/cerveja2.avif');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:contain; */
+    background-size:contain;
     background-color: var(--cor-fundo);
     font-family: var(--font-titulo);
     color: var(--cor-texto);
